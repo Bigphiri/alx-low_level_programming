@@ -1,13 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always  0 (Success)
  */
 int main(void)
 {
 	return (0);
 
 }
+
+
 
