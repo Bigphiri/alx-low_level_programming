@@ -11,10 +11,9 @@
  */
 int main(void)
 {
-	char my_string[60];
-
-	scanf("%[^\n]s", my_string);
+	char my_string[60]="\"Programming is like building a multilingual puzzle\n";
 
 	puts(my_string);
+
 	return (0);
 }
