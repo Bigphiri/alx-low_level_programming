@@ -6,10 +6,10 @@
  *
  * printf - displays content to the screen
  */
-int main ()
+int main(void)
 {
 
-	printf("%s", "wit ");
+	printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
 
 	return (0);
 }
