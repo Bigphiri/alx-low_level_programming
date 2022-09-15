@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	Print_alphabet_x10();
+	print_alphabet_x10();
 	return (0);
 }
