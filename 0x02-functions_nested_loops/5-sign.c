@@ -3,22 +3,19 @@
 /**
  * print_sign - prints the sign of a number.
  *
- * @n: The number to be checked
+ * @n: The number whose sign gets printed.
  *
- * Return: returns the sign if the number.
+ * Return: returns the sign of the number.
  */
 int print_sign(int n)
 {
 	int sign;
-	int i;
 
-	i = n;
-
-	if ((i > '1'))
+	if ((n > 0))
 	{
 		sign = _putchar('+');
 	}
-	else if ((i == '0'))
+	else if ((n == 0))
 	{
 		sign = _putchar('0');
 	}
@@ -26,6 +23,5 @@ int print_sign(int n)
 	{
 		sign = _putchar('-');
 	}
-	_putchar('\n');
 	return (sign);
 }
