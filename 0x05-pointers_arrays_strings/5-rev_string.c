@@ -4,22 +4,16 @@
  *
  * @s: The string to be reversed.
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
-	int i, j, tempo;
+	int len = 0, index;
 
-	i = 0;
-	j = 0;
+	while (s[index++])
+		len++;
 
-	while (s[j] != '\0')
-	{
-		j++;
-	}
-	j--;
-	while (j > 1)
-	{
-		tempo = s[j];
-		s[j--] = s[i];
-		s[i++] = tempo;
-	}
+	for (index = len - 1; index >= 0; index--)
+		_putchar(s[index]);
+
+	_putchar('\n');
 }
+
