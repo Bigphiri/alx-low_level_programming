@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * memset - set a character to given bytes of memory.
+ * _memset - set a character to given bytes of memory.
  *
  * @s: Pointer to the memory location.
  *
