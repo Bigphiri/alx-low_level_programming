@@ -8,7 +8,7 @@
  * @src: source
  *
  * Return: returns pointer
- */.
+ */
 char *_strcpy(char *dest, char *src)
 {
 
