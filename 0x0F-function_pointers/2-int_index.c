@@ -9,7 +9,7 @@
  * @size: size of the array.
  *
  * @cmp: A pointer to the function that compares.
- * the integers.
+ * the integers
  *
  * Return: returns the index of the integer.
  */
