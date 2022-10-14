@@ -1,5 +1,3 @@
-#include "function_pointers.h"
-
 /**
  * array_iterator - Executes a function for all
  * elements of an array.
@@ -19,3 +17,4 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 		action(array[i]);
 	}
 }
+
