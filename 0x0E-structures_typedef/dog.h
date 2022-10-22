@@ -1,13 +1,11 @@
 #ifndef _dog_h_
 #define _dog_h_
-#include <stdlib.h>
 
 /**
- * struct dog - a structer with the details of a dog.
- * @name: Name of the dog
- * @age: age of tge dog
- * @owner: name of the dog owner.
- * Description: details of the dog.
+ * struct dog - A structure with a dog's details.
+ * @name: Dog's name
+ * @age: Dog's age.
+ * @owner: Dog's owner.
  */
 struct dog
 {
@@ -15,4 +13,5 @@ struct dog
 	float age;
 	char *owner;
 };
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
