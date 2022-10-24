@@ -15,16 +15,30 @@ size_t print_list(const list_t *h)
 	list_t *p;
 
 	count = 0;
-	if ((*h).next != NULL)
-	{
+
+	if ((*h).str != NULL)
 		count++;
+
+	/*if ((*h).next == NULL)
+		printf("[%d] %s\n", (*h).len, (*h).str);*/
+
+	while ((*h).next != NULL)
+	{
+		/*count++;*/
+
 		if ((*h).str == NULL)
+		{
 			printf("[0] (nil)\n");
+			count++;
+		}
 		else
 		printf("[%d] %s\n", (*h).len, (*h).str);
-		p = (*h).next;
 		count++;
+		p = (*h).next;
+		/*count++;*/
 		printf("[%d] %s\n", (*p).len, (*p).str);
+		h = p;
+		
 	}
 	return (count);
 }
